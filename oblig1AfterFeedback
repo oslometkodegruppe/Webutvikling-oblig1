@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div 
+        {
+            margin:auto;
+            width: 60%;
+            text-align: center;
+            border: 2px solid;
+            padding: 25px;
+            background-color: white;
+        }
+        #div2
+        {
+            margin:auto;
+            width: 60%;
+            text-align: center;
+            border: 2px solid;
+            padding: 25px;
+            background-color: black;
+            color: white;
+            position: relative;
+            height: 200px;
+        }
+        #div3
+        {
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+        #div4
+        {
+            position: absolute;
+            left: 400px;
+            top: 20px;
+        }
+        #div5
+        {
+            position: absolute;
+            left: 250px;
+            top: 0px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body style="background-color: skyblue;">
+    <div id="div">
+        <article style="font-size: 60px">Den beste menyen</article>
+        
+        <h1>Lunsj</h1>
+        
+        <h2 style="font-size: 24px ;"> Smørbrød</h2>
+        <p><b>KARBONADESMØRBRØD MED REMULADE</b> 
+            185 kr<br>
+            (Allergener: Egg)</p>
+
+        <p><b>SKAGENSMØRBRØD MED REKER</b> 
+            185 kr<br>
+        (Allergener: Egg, laktose, skalldyr)</p>  
+            
+        <p><b>ROASTBEEFSMØRBRØD MED REMULADE</b> 
+        169 kr<br>
+        (Allergener: Egg)</p>
+        <hr>
+        
+        <h1>Middag</h1>
+
+        <h2 style="font-size: 24px ;">Tapas</h2>
+
+        <p><b>TINN SPEKEFJØL</b> 
+            219 kr <br>
+            Med utsøkt spekemat og modne oster <br>
+            (Allergener: Laktose)</p>
+
+        <p><b>LITEN TAPASFJØL</b> 
+            149 kr <br>
+            Med kylling, spekeskinke, salat, rød og pesto <br>
+            (Allergener: laktose)</p>
+        
+        <h2 style="font-size: 24px;">Suppe</h2>
+
+        <p><b>GULROT / INGEFÆRSUPPE MED KYLLING</b> 
+            155 kr</p>
+        
+        <hr>
+
+        <h1>Kaker og bakst</h1>
+
+        <p><b>BROWNIES</b>
+            46 kr <br>
+            (Glutenfritt)</p>
+
+        <p><b>GULROTKAKE</b>
+            46 kr <br></p>
+
+        <p><b>ISLANDSKAKE</b>
+            49 kr <br></p>
+
+        <p><b>Kanelbolle</b>
+            39 kr <br></p>
+
+        
+
+    </div>
+    <div id="div2">
+        <footer>
+            <div id="div3">
+                <Strong> Åpningstider </Strong>
+                <p> Mandag-Fredag 11.00-20.00 </p>
+                <p>Lørdag-Søndag 12.00-19.00</p>
+                <p> Vi holder stengt 1.juledag, nyttersåfaten og i helligdager. </p>
+            </div>
+    
+            <div id="div4"> 
+                <Strong> Sted: </Strong>
+                <p> Akersgata 10 </p>
+                <p>0157, Oslo </p>
+                <div>
+    
+            <div>
+            <Strong> Daglig leder: Eivind Helstrøm</Strong>
+            </div>
+    
+            <div id="div5">
+                <Strong> Kontakt oss:</Strong>
+                   <p>Telefon:+47 43214564 </p>
+                   <p> Mail: tapasnorge@gmail.com</p>
+                   <p> Instagram: TapasNorge</p>
+                   
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
