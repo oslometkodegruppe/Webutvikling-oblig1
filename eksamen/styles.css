@@ -1,0 +1,143 @@
+/* 
+    CSS for alle sidene
+*/
+main 
+{
+    text-align: center; 
+    background-color: #f1ecda;
+    overflow:hidden
+}
+nav
+{
+    padding-top: 50px;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+  
+li 
+{
+    float: left;
+    font-size: 1.2em;
+}
+
+li a 
+{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+#resturantLogo
+{
+     font-family: "Lucida Handwriting", "Courier New", monospace; float: left;
+}
+p 
+{
+    font-size: 25px;
+}
+strong
+{
+    font-size: 25px;
+}
+h1
+{ 
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+    
+h2
+{
+    color: black;
+    text-align: center; 
+    margin-left:40px;
+    font-size: 2.5em; 
+}
+#button
+{
+    background-color: burlywood;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    width: 10%;
+}
+
+hr
+{
+    margin-top: 30px;
+}
+
+#divkontaktInfo1
+{
+    margin:auto;
+    text-align: center;
+    border: 2px solid;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    position: relative;
+    height: auto;
+}
+#kontakt
+{
+    display: inline-block;
+}
+/*
+  CSS for index siden
+*/
+
+#mainImg 
+{
+    height: 500px;
+    width: 100%;
+}
+
+#indexMeny
+{
+    height: 325px; 
+    width: 90%; 
+    background-color: #f9f9f6; 
+    text-align: left; 
+    left: 3%; 
+    position: relative;
+}
+#menyH2
+{
+    color: black;
+    text-align: left;
+    margin-left:40px;
+    font-size: 2.5em; 
+}
+#indexMenyImg
+{
+    position: relative; 
+    left: 420px; 
+    top: -325px;
+    height: 325px; 
+    margin-bottom: -325px;
+}
+/* Code from https://stackoverflow.com/questions/4189868/what-does-media-screen-and-max-width-1024px-mean-in-css
+Makes the code run if the width is less then the specified amount */
+@media screen and (max-width: 1000px){
+    #indexMenyImg{
+       left: 0px; 
+        top: 0px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+}
+
+/*
+float: right;
+    
+*/
